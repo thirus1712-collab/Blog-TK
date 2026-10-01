@@ -1,0 +1,14 @@
+{
+  "name": "blog-tk",
+  "version": "1.0.0",
+  "description": "Blog TK - Modern Full-Stack MERN Public Blogging Platform",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "clear-data": "npm --prefix server run clear-data",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": ["mern", "blog", "react", "express", "mongodb"],
+  "author": "Blog TK Team",
+  "license": "ISC"
+}
